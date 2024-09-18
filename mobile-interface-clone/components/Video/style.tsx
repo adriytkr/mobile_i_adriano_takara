@@ -1,0 +1,39 @@
+import {Dimensions, StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  thumbnail:{
+    width:'auto',
+    maxHeight:200,
+    position:'relative',
+    borderRadius:16,
+  },
+  duration:{
+    position:'absolute',
+    right:5,
+    bottom:5,
+    color:'#fff',
+    backgroundColor:'#000',
+    padding:2,
+    borderRadius:4,
+  },
+  content:{
+    display:'flex',
+    flexDirection:'row',
+    padding:6,
+  },
+  profilePicture:{
+    borderRadius:999,
+    width:30,
+    height:30,
+    margin:10,
+  },
+  data:{
+    display:'flex',
+    justifyContent:'center',
+    flexShrink:1,
+  },
+  metadata:{
+    flexDirection:'row',
+    columnGap:8,
+  },
+});
